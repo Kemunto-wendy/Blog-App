@@ -1,5 +1,8 @@
-
-
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
 .container {
     max-width: 1140px;
     width: 95%;
