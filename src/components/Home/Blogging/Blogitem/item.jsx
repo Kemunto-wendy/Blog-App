@@ -1,10 +1,18 @@
 import React from "react";
 import "./item.css";
 
-const Blogitem = ({blog}) => {
+const Blogitem = ({
+    blog: {
+        id,
+        description,
+        title,
+        category,
+        authorName,
+         createdOn,
+        cover}, }) => {
     return(
-        <div>
-            <h1>Blog Item</h1>
+        <div className="blogItem">
+            <img src={cover} alt ="Cover" />
         </div>
     )
 }
