@@ -8,6 +8,7 @@ export const blogging = [
         authorName: "Joy Kemunto",
         cover: "assets/images/one.png",
         createdOn:"June 24th 2022",
+        authorAvatar: '/assets/images/jif.jpg',
     },
     {
         id: 2,
