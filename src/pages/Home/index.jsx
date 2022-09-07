@@ -10,7 +10,7 @@ const Home = ( ) => {
 
             <Header />
            <Button />
-           <Blogging />
+           <Blogging  blogs={blogging } />
         </div>
     );
 };
