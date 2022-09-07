@@ -1,9 +1,16 @@
 import React from "react";
+import Button from "../../components/Home/Button/button";
+import Header from "../../components/Home/Header/header";
 
 const Home = ( ) => {
     return (
         <div>
-            <h1>Home Page</h1>
+
+#responsible for the header page
+            <Header />
+
+#responsible for the search button
+            <Button />
         </div>
     );
 };
