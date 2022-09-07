@@ -1,7 +1,7 @@
 import React from "react";
 import "./button.css";
 
-const Button = ({ value, handleSearcKey, clearSearch, formSubmit}) => {
+const Button = ({ value, handleSearcKey, clearSearch, formSubmit}) => (
     <div className="search">
     <form onSubmit={formSubmit}>
                     <input type="text" onChange={handleSearcKey } placeholder="Search Blog" value={value}/>
@@ -10,6 +10,6 @@ const Button = ({ value, handleSearcKey, clearSearch, formSubmit}) => {
             <button>Search</button>
                     </form>
         </div>
-}
+)
 
 export default Button

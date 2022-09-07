@@ -3,6 +3,7 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .container {
     max-width: 1140px;
     width: 95%;
@@ -10,5 +11,5 @@
     padding: 1rem o;
 }
 body{
-        background-color: beige;
+       background-image: url("images/one.png");
 }

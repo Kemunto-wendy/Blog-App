@@ -6,11 +6,9 @@ const Home = ( ) => {
     return (
         <div>
 
-#responsible for the header page
-            <Header />
 
-#responsible for the search button
-            <Button />
+            <Header />
+           <Button />
         </div>
     );
 };
