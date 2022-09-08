@@ -5,7 +5,7 @@ const Button = ({ value, handleSearcKey, clearSearch, formSubmit}) => (
     <div className="search">
             <form onSubmit={formSubmit}>
                     <input type="text" onChange={handleSearcKey } placeholder="Search Blog" value={value}/>
-                            {value && <span onClick={clearSearch}>x</span>}
+                            {value && <span onClick={clearSearch}>❌</span>}
             <button>Search</button>
             </form>
         </div>
