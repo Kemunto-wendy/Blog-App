@@ -1,7 +1,8 @@
-.blogging {
+.blogList-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
+    column-count: 3;
   }
 
   @media (max-width: 768px) {
