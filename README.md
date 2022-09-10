@@ -1,8 +1,9 @@
 # Getting Started with Create React App
-
+The title of my React App is a Blog Application
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Blog website
+My application will be a blog application where authors can be able to add new blogs create update and delete if a blog doesnt seem to be reasonable.
 
 In the project directory, you can run:
 
@@ -35,36 +36,30 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### PROJECT TITLE
+BLOG APPLICATION SITE
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### PROJECT DESCRIPTION
+Finally kids will be able to learn images and know the difference from a simpler site. My project is a kids hub where they are able to search for pictorials/ images for their assignments instead of googling them directly on chrome search which will take time for them to review all the displayed images. I have used and API from unsplash. With this project kids will be able to learn and understand what an image looks like and whats its called because currently the Competency Based Curriculum (CBC) consist of 2-6-3-3-3 education cycle. Every learner shall transition through a minimum of 17 levels, every level as period of 1 year. The KICD has grouped them into 4 general categories: Early Year Education (Pre-Primary & Lower Primary) This project was bootstrapped with Create React App.
 
-## Learn More
+DEPENDENCIES
+The prerequisites used for my language will be:
+1. HTML: Skeleton of the webpage.
+2. CSS:Used to style my application.
+3. JAVASCRIPT: Client side scripting.
+4. BOOTSTRAP: CSS Framework for developing responsive and mobile-first websites.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The open source library ecosysystem used will be:
+*React.js to design and implement user interface components for JavaScript-based web and mobile applications and also based on my application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+SETUP PROCESS
+You can git clone my ssh key from my repository git@github.com:Kemunto-wendy/Blog-App.git to access it
 
-### Code Splitting
+GITHUB LINK
+https://github.com/Kemunto-wendy/Blog-App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+AUTHORS
+JOY KEMUNTO
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+EMAIL
+You can reach me out through my email joykemunto333@gmail.com.
