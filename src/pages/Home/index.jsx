@@ -3,6 +3,7 @@ import Empty from "../../components/Common/Empty/empty";
 import Blogging from "../../components/Home/Blogging/blogging";
 import Button from "../../components/Home/Button/button";
 import Header from "../../components/Home/Header/header";
+import Login from "../../components/Home/login/login";
 import { blogging } from "../../config/data";
 
 const Home = ( ) => {
@@ -29,6 +30,7 @@ const Home = ( ) => {
   };
     return (
         <div>
+        <Login />
             <Header />
            <Button
            value={searchKey}
