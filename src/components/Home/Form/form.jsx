@@ -1,14 +1,15 @@
 import { useState } from "react";
 import React from "react";
+import "./form.css"
 
 const Create = () => {
   const [title, setTitle] = useState('');
-  const [body, setBody] = useState('');
+  const [content, setBody] = useState('');
   const [author, setAuthor] = useState('mario');
 
   return (
     <div className="create">
-      <h2>Add a New Blog</h2>
+      <h2>New Blog loading!!!!😆 </h2>
       <form>
         <label>Blog title:</label>
         <input
@@ -20,7 +21,7 @@ const Create = () => {
         <label>Blog body:</label>
         <textarea
           required
-          value={body}
+          value={content}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
         <label>Blog author:</label>
@@ -28,8 +29,8 @@ const Create = () => {
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         >
-          <option value="mario">mario</option>
-          <option value="yoshi">yoshi</option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
         </select>
         <button>Add Blog</button>
       </form>
@@ -38,5 +39,3 @@ const Create = () => {
 }
 
 export default Create;
-
-

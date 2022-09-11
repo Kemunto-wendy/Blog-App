@@ -55,8 +55,11 @@ The open source library ecosysystem used will be:
 SETUP PROCESS
 You can git clone my ssh key from my repository git@github.com:Kemunto-wendy/Blog-App.git to access it
 
-GITHUB LINK
+###### GITHUB LINK FRONT END
 https://github.com/Kemunto-wendy/Blog-App
+
+###### GITHUB LINK BACK END
+
 
 AUTHORS
 JOY KEMUNTO
