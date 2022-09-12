@@ -9,7 +9,7 @@ const Create = ({onAddBlog}) => {
     title: "",
     content:"",
     author:"",
-    cover:"",
+    cover:"assets/images/one.png",
     authorAvatar:"",
 
 
@@ -75,6 +75,7 @@ const Create = ({onAddBlog}) => {
           <option value="Male">Male</option>
         </select>
         <button>Add Blog</button>
+
 
 
       </form>
