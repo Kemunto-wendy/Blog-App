@@ -76,6 +76,7 @@ const Create = ({onAddBlog}) => {
         </select>
         <button>Add Blog</button>
 
+
       </form>
     </div>
   );
