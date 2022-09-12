@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Blogitem = ({
     blog: {
         id,
-        description,
+        content,
         title,
         category,
-        authorName,
+        author,
         authorAvatar,
          createdOn,
         cover}, }) => {
@@ -17,12 +17,12 @@ const Blogitem = ({
             <img src={cover} alt ="Cover" />
             <Chip label={category} />
             <h3>{title}</h3>
-            <p className='blogItem-desc'>{description}</p>
+            <p className='blogItem-desc'>{content}</p>
             <footer>
               <div className='blogItem-author'>
                 <img src={authorAvatar} alt='avatar' />
                 <div>
-                  <h6>{authorName}</h6>
+                  <h6>{author}</h6>
                   <p>{createdOn}</p>
                 </div>
               </div>

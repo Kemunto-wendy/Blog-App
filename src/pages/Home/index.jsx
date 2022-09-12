@@ -1,15 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import Empty from "../../components/Common/Empty/empty";
 import Blogging from "../../components/Home/Blogging/blogging";
 import Button from "../../components/Home/Button/button";
 import Header from "../../components/Home/Header/header";
-import Login from "../../components/Home/login/login";
 import { blogging } from "../../config/data";
 import Create from "../../components/Home/Form/form";
 
 const Home = ( ) => {
-    const [blogs, setBlogs] = useState(blogging);
+  const blogUrl = "http://localhost:9292/blogs";
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+      fetch(blogUrl)
+        .then((res) => res.json())
+        .then((blog) => setBlogs(blog));
+
+    }, []);
+
+    function handleAddBlog(newBlog){
+      setBlogs([...blogs, newBlog]);
+    }
     const [searchKey, setSearchKey] = useState(' ');
+
 
     const handleSearchSubmit = (event) =>{
         event.preventDefault( );
@@ -31,7 +42,6 @@ const Home = ( ) => {
   };
     return (
         <div>
-        <Login />
             <Header />
            <Button
            value={searchKey}
@@ -39,7 +49,7 @@ const Home = ( ) => {
            formSubmit={handleSearchSubmit}
            handleSearcKey={(e) => setSearchKey(e.target.value)}
            />
-           {!blogs.length ? <Empty /> : <Blogging  blogs={blogging} />}
+           {!blogs.length ? <Empty /> : <Blogging onAddBlog = {handleAddBlog} blogs={blogs} />}
           <Create />
         </div>
     );
