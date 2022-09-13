@@ -40,14 +40,21 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 BLOG APPLICATION SITE
 
 #### PROJECT DESCRIPTION
-Finally kids will be able to learn images and know the difference from a simpler site. My project is a kids hub where they are able to search for pictorials/ images for their assignments instead of googling them directly on chrome search which will take time for them to review all the displayed images. I have used and API from unsplash. With this project kids will be able to learn and understand what an image looks like and whats its called because currently the Competency Based Curriculum (CBC) consist of 2-6-3-3-3 education cycle. Every learner shall transition through a minimum of 17 levels, every level as period of 1 year. The KICD has grouped them into 4 general categories: Early Year Education (Pre-Primary & Lower Primary) This project was bootstrapped with Create React App.
+The blogging project is a client-server Web application built over an RDBMS.  Blogging, short for web logging, is an application that runs on a portal site, in which different users (and user groups) can publish and revise daily journal entries, and these entries will be made public for others to view.  In essence, it gives everyone his or her own personal editorial column to publish to the world. The blogging system has the following features:
+A client for creating and updating blog entries.  The client can be written in a number of different ways, ranging from a Java applet that runs in the web browser, to a PHP interface, to a custom Java or C# client that runs on the client side.  The client should publish blogs using an XML-based protocol such as Ruby, This project was bootstrapped with Create React App.
+
+A portal site with a database backend.  This portal site should present a main page from which people’s blogs can be accessed; it should show the most recently updated blogs; and it should provide a means of browsing different blogs.
+
+
+A good schema design that is appropriate for the data being stored.  Some of this data is simple and highly regular.
+
 
 DEPENDENCIES
 The prerequisites used for my language will be:
 1. HTML: Skeleton of the webpage.
 2. CSS:Used to style my application.
 3. JAVASCRIPT: Client side scripting.
-4. BOOTSTRAP: CSS Framework for developing responsive and mobile-first websites.
+
 
 The open source library ecosysystem used will be:
 *React.js to design and implement user interface components for JavaScript-based web and mobile applications and also based on my application.
@@ -59,6 +66,7 @@ You can git clone my ssh key from my repository git@github.com:Kemunto-wendy/Blo
 https://github.com/Kemunto-wendy/Blog-App
 
 ###### GITHUB LINK BACK END
+https://github.com/Kemunto-wendy/phase-3-sinatra-react-project
 
 
 AUTHORS
