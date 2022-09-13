@@ -68,6 +68,17 @@ https://github.com/Kemunto-wendy/Blog-App
 ###### GITHUB LINK BACK END
 https://github.com/Kemunto-wendy/phase-3-sinatra-react-project
 
+NAME OF ROUTE             REQUEST METHOD            ENDPOINT                RESULT
+Index                                   GET                            /model                  Return all items
+Show                                   GET                          /model/:id               Displays all items
+create                                  POST                    /model                  Creates a new title and content
+update                  POST/PUT/PATCH          /model/:id                  Updates the title and the content
+delete                      POST/DELETE             /model/:id                     Deletes the title and the content
+
+
+
+
+
 
 AUTHORS
 JOY KEMUNTO
