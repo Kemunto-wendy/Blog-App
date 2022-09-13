@@ -11,9 +11,8 @@ const Blogitem = ({
         title,
         category,
         author,
-        authorAvatar,
          createdOn,
-        cover}, }) => {
+        }, }) => {
     return(
         <div className="blogItem">
             <img src="assets/images/one.png" alt ="Cover" />
@@ -22,7 +21,7 @@ const Blogitem = ({
             <p className='blogItem-desc'>{content}</p>
             <footer>
               <div className='blogItem-author'>
-                <img src={authorAvatar} alt='avatar' />
+                <img src="/assets/images/jif.jpg" alt='avatar' />
                 <div>
                   <h6>{author}</h6>
                   <p>{createdOn}</p>
