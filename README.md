@@ -77,11 +77,8 @@ delete                      POST/DELETE             /model/:id                  
 
 
 
-
-
-
-AUTHORS
+### AUTHORS
 JOY KEMUNTO
 
-EMAIL
+### EMAIL
 You can reach me out through my email joykemunto333@gmail.com.
